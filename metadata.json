@@ -1,0 +1,6 @@
+{
+  "name": "AEROFLOW – Air Resource Planner (SIMULATION)",
+  "description": "Operations Control Center decision-support dashboard for dynamic planning and resource re-planning with synthetic operational data.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

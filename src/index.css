@@ -1,0 +1,45 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    background-color: #F8F6F0;
+    color: #362419;
+  }
+}
+
+/* Off-white, Grounding Brown & Vibrant Deep Blue Theme */
+.theme-bg {
+  background-color: #F8F6F0;
+}
+
+.theme-card-bg {
+  background-color: #FFFFFF;
+}
+
+.theme-card-subtle {
+  background-color: #F1ECE1;
+}
+
+.theme-border {
+  border-color: #DFD7C8;
+}
+
+/* Custom Earthy & Deep Blue Scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #F8F6F0;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #D5CBB9;
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #1E40AF;
+}
